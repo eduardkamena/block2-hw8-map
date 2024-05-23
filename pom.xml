@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pro.sky</groupId>
-	<artifactId>block2-hw6-lists</artifactId>
+	<artifactId>block2-hw8-map</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>block2-hw6-lists</name>
-	<description>HW6, Lists</description>
+	<name>block2-hw8-map</name>
+	<description>HW8, Map</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

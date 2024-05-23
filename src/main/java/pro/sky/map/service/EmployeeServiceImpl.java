@@ -1,9 +1,9 @@
-package pro.sky.lists.service;
+package pro.sky.map.service;
 
 import org.springframework.stereotype.Service;
-import pro.sky.lists.exceptions.EmployeeAlreadyAddedException;
-import pro.sky.lists.exceptions.EmployeeNotFoundException;
-import pro.sky.lists.exceptions.EmployeeStorageIsFullException;
+import pro.sky.map.exceptions.EmployeeAlreadyAddedException;
+import pro.sky.map.exceptions.EmployeeNotFoundException;
+import pro.sky.map.exceptions.EmployeeStorageIsFullException;
 
 import java.util.ArrayList;
 import java.util.Arrays;

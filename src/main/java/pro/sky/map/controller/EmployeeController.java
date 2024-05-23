@@ -1,11 +1,11 @@
-package pro.sky.lists.controller;
+package pro.sky.map.controller;
 
 import org.springframework.web.bind.annotation.*;
-import pro.sky.lists.exceptions.EmployeeAlreadyAddedException;
-import pro.sky.lists.exceptions.EmployeeNotFoundException;
-import pro.sky.lists.exceptions.EmployeeStorageIsFullException;
-import pro.sky.lists.service.EmployeeBook;
-import pro.sky.lists.service.EmployeeService;
+import pro.sky.map.exceptions.EmployeeAlreadyAddedException;
+import pro.sky.map.exceptions.EmployeeNotFoundException;
+import pro.sky.map.exceptions.EmployeeStorageIsFullException;
+import pro.sky.map.service.EmployeeBook;
+import pro.sky.map.service.EmployeeService;
 
 import java.util.List;
 

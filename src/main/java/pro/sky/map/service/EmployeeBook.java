@@ -1,4 +1,4 @@
-package pro.sky.lists.service;
+package pro.sky.map.service;
 
 public record EmployeeBook(String firstName, String lastName) {
 

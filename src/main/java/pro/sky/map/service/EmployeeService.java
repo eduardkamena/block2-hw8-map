@@ -1,4 +1,4 @@
-package pro.sky.lists.service;
+package pro.sky.map.service;
 
 import java.util.List;
 
