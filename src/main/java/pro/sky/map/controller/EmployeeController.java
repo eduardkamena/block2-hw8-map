@@ -8,6 +8,7 @@ import pro.sky.map.service.EmployeeBook;
 import pro.sky.map.service.EmployeeService;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(path = "/employee")
@@ -38,8 +39,13 @@ public class EmployeeController {
     }
 
     @GetMapping(path = "/print")
-    public List<EmployeeBook> printEmployee() {
+    public Map<String, EmployeeBook> printEmployee() {
         return employeeService.printEmployee();
+    }
+
+    @GetMapping(path = "/size")
+    public int printSize() {
+        return employeeService.printSize();
     }
 
     @ExceptionHandler(EmployeeStorageIsFullException.class)
