@@ -1,6 +1,7 @@
 package pro.sky.map.service;
 
 import java.util.List;
+import java.util.Map;
 
 public interface EmployeeService {
 
@@ -10,6 +11,7 @@ public interface EmployeeService {
 
     EmployeeBook findEmployee(String firstName, String lastName);
 
-    List<EmployeeBook> printEmployee();
+    Map<String, EmployeeBook> printEmployee();
 
+    int printSize();
 }
